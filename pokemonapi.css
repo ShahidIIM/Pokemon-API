@@ -1,0 +1,35 @@
+
+#main {
+    display: flex;
+    flex-direction: column;
+}
+
+table {
+    width: 100%;
+}
+
+thead {
+    background-color: teal;
+    color: white;
+    font-size: 20px;
+    text-transform: capitalize;
+    height: 50px;
+}
+
+.rows {
+    border: 1px solid black;
+    text-transform: capitalize;
+    height: 20px;
+}
+
+#searchBar {
+    width: 20%;
+    height: 30px;
+}
+
+#submitSearch {
+    height: 30px;
+    border-style: none;
+    background-color: black;
+    color: white;
+}
